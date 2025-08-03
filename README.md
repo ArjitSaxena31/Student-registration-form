@@ -45,41 +45,34 @@ student-registration-form/
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
-```bash
+bash
 git clone https://github.com/your-username/student-registration-form.git
 cd student-registration-form
-2️⃣ Install Backend Dependencies
 
+
+2️⃣ Install Backend Dependencies
 bash
-Copy
-Edit
 cd server
 npm install
 
 3️⃣ Configure Environment Variables
 Create .env file inside server/ and add:
 bash
-Copy
-Edit
 
 MONGO_URI=mongodb://localhost:27017/studentDB
 
 4️⃣ Start MongoDB Server
 bash
-Copy
-Edit
+
 mongod
 
 5️⃣ Run Backend Server
 bash
-Copy
-Edit
+
 node server.js
 
 6️⃣ Open Frontend
 Open client/index.html in your browser or use Live Server in VS Code.
-
-👨‍💻 Author
 
 Arjit Saxena
 📧 Email: saxenaarjit91@gmail.com
