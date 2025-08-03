@@ -26,15 +26,25 @@ The **Student Registration Form** is a web application that digitizes and stream
 
 
 student-registration-form/
+
 ├── client/
+
 │ ├── index.html
+
 │ ├── style.css
+
 │ └── script.js
+
 ├── server/
+
 │ ├── server.js
+
 │ └── models/
+
 │ └── Student.js
+
 ├── .env
+
 └── package.json
 
 
@@ -51,18 +61,23 @@ cd student-registration-form
 
 
 2️⃣ Install Backend Dependencies
+
 bash
+
 cd server
 npm install
 
 3️⃣ Configure Environment Variables
 Create .env file inside server/ and add:
+
 bash
 
 MONGO_URI=mongodb://localhost:27017/studentDB
 
 4️⃣ Start MongoDB Server
+
 bash
+
 
 mongod
 
